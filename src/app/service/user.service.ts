@@ -14,7 +14,6 @@ export class UserService {
     getById(id: number) {
         return this.http.get(`${config.apiUrl}/users/${id}`);
     }
-
     register(user: User) {
         return this.http.post(`${config.apiUrl}/users/register`, user);
     }

@@ -3,7 +3,7 @@ import * as moment from 'moment';
 
 @Pipe({ name: 'momentFormat' })
 export class MomentFormatPipe implements PipeTransform {
-    transform(value: moment.MomentInput, format: string) {
+    transform(value: moment.MomentInput, format: string): any {
         if (!value) {
             return '';
         }
@@ -15,7 +15,7 @@ export class MomentFormatPipe implements PipeTransform {
 @Pipe({ name: 'momentTimeFormat' })
 export class MomentTimeFormatPipe implements PipeTransform {
     private today = moment();
-    transform(value: string, format: string) {
+    transform(value: string, format: string): any {
         if (!value) {
             return '';
         }

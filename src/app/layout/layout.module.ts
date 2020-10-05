@@ -12,13 +12,13 @@ import { CrmLayoutComponent } from './crm-layout/crm-layout.component';
     FormsModule
   ],
   exports: [
-    // MainLayoutComponent,
-    // OpenLayoutComponent
+    //MainLayoutComponent,
+    //OpenLayoutComponent
   ],
   declarations: [
-    // MainLayoutComponent,
-    // OpenLayoutComponent
-    // CrmLayoutComponent
+    //MainLayoutComponent,
+    //OpenLayoutComponent
+    //CrmLayoutComponent
 ]
 })
 export class LayoutModule { }
