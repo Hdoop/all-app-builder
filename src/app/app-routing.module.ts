@@ -13,8 +13,8 @@ const routes: Routes = [
         component: MainLayoutComponent,
         children: [
             { path: '', component: HomeComponent },
-        ],
-        canActivate: [AuthGuard]
+        ]//,
+        //canActivate: [AuthGuard]
     },
 ];
 
